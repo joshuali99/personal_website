@@ -43,6 +43,7 @@ const Layout = ({ children, siteTitle }) => {
           margin: `0 auto`,
           maxWidth: 800,
           padding: `0 1.0875rem 1.45rem`,
+          zIndex: `-1`,
         }}
       >
         <main>{children}</main>
