@@ -15,6 +15,7 @@ body {
 }
 
 .card {
+  z-index: -1;
   border-radius: 0px;
   box-shadow: 2px 2px 2px rgb(201, 199, 199);
 }

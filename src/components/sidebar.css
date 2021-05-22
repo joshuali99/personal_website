@@ -24,8 +24,8 @@
   top: 0;
   left: -100%;
   transition: 850ms;
-  z-index: 500;
-  -webkit-transform: translate3d(0, 0, 100);
+  z-index: 10;
+  -webkit-transform: translate3d(0, 0, 0);
 }
 
 .nav-menu.active {
