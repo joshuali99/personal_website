@@ -24,13 +24,13 @@
   top: 0;
   left: -100%;
   transition: 850ms;
+  z-index: 500;
+  transform: translate3d(0, 0, 200px);
 }
 
 .nav-menu.active {
   left: 0;
   transition: 350ms;
-  z-index: 255;
-  transform: translate3d(0, 0, 200px);
 }
 
 .nav-text {
@@ -101,7 +101,12 @@
 .profilePic {
   display: flex;
   justify-content: center;
-  margin: 24px;
+  align-items: center;
+  width: 175px;
+  height: 175px;
+  margin: auto;
+  margin-top: 24px;
+  margin-bottom: 24px;
 }
 
 .nav-text .link-active {
