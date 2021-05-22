@@ -12,15 +12,15 @@ import { Image } from "react-bootstrap"
 const Sidebar = ({ siteTitle, sidebar, showSidebar }) => {
   return (
     <>
-      <IconContext.Provider value={{ color: "#fff" }}>
+      <IconContext.Provider value={{ color: "#fff", cursor: "pointer" }}>
         <div className="sidebar">
-          <Link to="" className="menu-bars">
+          <Link className="menu-bars">
             <FaIcons.FaBars onClick={showSidebar} aria-label="Show sidebar" />
           </Link>
           <div className="header">
             <h1>
               <Link
-                to=""
+                to="/"
                 style={{
                   textDecoration: "none",
                   color: "white",
@@ -38,7 +38,9 @@ const Sidebar = ({ siteTitle, sidebar, showSidebar }) => {
         <ul className="nav-menu-items">
           <li className="navbar-toggle">
             <Link className="menu-bars">
-              <IconContext.Provider value={{ color: "#fff" }}>
+              <IconContext.Provider
+                value={{ color: "#fff", cursor: "pointer" }}
+              >
                 {" "}
                 <AiIcons.AiOutlineClose
                   onClick={showSidebar}
