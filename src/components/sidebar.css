@@ -14,8 +14,6 @@
 }
 
 .nav-menu {
-  z-index: 255;
-  transform: translate3d(0, 0, 200px);
   width: 300px;
   background-color: white;
   box-shadow: 1px 0px 2px rgb(220, 220, 220);
@@ -31,6 +29,8 @@
 .nav-menu.active {
   left: 0;
   transition: 350ms;
+  z-index: 255;
+  transform: translate3d(0, 0, 200px);
 }
 
 .nav-text {

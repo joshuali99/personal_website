@@ -54,6 +54,7 @@ const Sidebar = ({ siteTitle, sidebar, showSidebar }) => {
               roundedCircle
               style={{
                 width: "80%",
+                height: "auto",
               }}
               alt="My Profile Picture"
             />
