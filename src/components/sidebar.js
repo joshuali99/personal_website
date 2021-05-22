@@ -37,7 +37,7 @@ const Sidebar = ({ siteTitle, sidebar, showSidebar }) => {
       <nav className={sidebar ? "nav-menu active" : "nav-menu"}>
         <ul className="nav-menu-items">
           <li className="navbar-toggle">
-            <Link to="/" className="menu-bars">
+            <Link className="menu-bars">
               <IconContext.Provider value={{ color: "#fff" }}>
                 {" "}
                 <AiIcons.AiOutlineClose
