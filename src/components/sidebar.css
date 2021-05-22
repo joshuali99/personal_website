@@ -25,7 +25,7 @@
   left: -100%;
   transition: 850ms;
   z-index: 500;
-  transform: translate3d(0, 0, 200px);
+  -webkit-transform: translate3d(0, 0, 100);
 }
 
 .nav-menu.active {

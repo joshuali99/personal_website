@@ -81,7 +81,10 @@ const Sidebar = ({ siteTitle, sidebar, showSidebar }) => {
             )
           })}
           <li className="nav-text">
-            <a href="/static/JoshuaLeeResume.pdf" target="_blank">
+            <a
+              href="https://drive.google.com/file/d/1UsJAOrc_-frwLtKj_VVjLbBSZqBNwQgp/view?usp=sharing"
+              target="_blank"
+            >
               Resum&eacute;
             </a>
           </li>
