@@ -1,0 +1,128 @@
+.sidebar {
+  background-color: #2a536e;
+  height: 60px;
+  box-shadow: 0px 2px 2px rgb(201, 199, 199);
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+
+.menu-bars {
+  margin-left: 2rem;
+  font-size: 1.5rem;
+  background: none;
+}
+
+.nav-menu {
+  z-index: 255;
+  width: 300px;
+  background-color: white;
+  box-shadow: 1px 0px 2px rgb(220, 220, 220);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  top: 0;
+  left: -100%;
+  transition: 850ms;
+}
+
+.nav-menu.active {
+  left: 0;
+  transition: 350ms;
+}
+
+.nav-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  height: 28px;
+  margin: 8px 0px;
+}
+
+.nav-text a {
+  text-decoration: none;
+  font-size: 18px;
+  color: rgba(0, 0, 0, 0.7);
+  width: 95%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0px 16px;
+  border-radius: 4px;
+}
+
+.nav-text a:not(.link-active):hover {
+  color: #202325;
+}
+
+.nav-menu-items {
+  margin-top: 0px;
+  padding-left: 0px;
+  width: 100%;
+}
+
+.navbar-toggle {
+  width: 100%;
+  height: 60px;
+  background-color: #326e96;
+  box-shadow: 2px 0px 2px #1b445f;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+
+.header {
+  direction: rtl;
+  width: 100%;
+  display: flex;
+  padding-right: 1.5rem;
+}
+
+.subitem {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  font-size: 15px;
+  height: 20px;
+  color: #000000b3;
+  margin: 6px 0px;
+}
+
+.email {
+  font-size: 12px;
+  margin-bottom: 20px;
+}
+
+.profilePic {
+  display: flex;
+  justify-content: center;
+  margin: 24px;
+}
+
+.nav-text .link-active {
+  color: #2c98f0;
+}
+
+.nav-text a:hover,
+.email a:hover {
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.sidebarIcons {
+  padding-top: 15px;
+  display: flex;
+  justify-content: center;
+}
+
+.copyRight {
+  margin: 25px;
+  font-size: 12px;
+  text-align: center;
+  list-style: none;
+  color: #000000b3;
+}

@@ -1,0 +1,81 @@
+.nav-menu,
+h1 {
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen-Sans,
+    Ubuntu, Cantarell, Helvetica Neue, sans-serif;
+}
+
+h1 {
+  font-size: 1.5rem;
+  font-weight: lighter;
+}
+
+body {
+  margin: 0px;
+  background-color: #f8f9fa;
+}
+
+.card {
+  border-radius: 0px;
+  box-shadow: 2px 2px 2px rgb(201, 199, 199);
+}
+
+.card p {
+  font-size: 1.2rem;
+}
+
+.pageHeader {
+  padding-top: 20px;
+  padding-bottom: 15px;
+}
+
+.pageHeader h1 {
+  font-size: 32px;
+}
+
+.cardTitle,
+.pageHeader h1 {
+  font-weight: 550;
+}
+
+.mainTitle {
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+.secondTitle {
+  font-weight: 600;
+  font-size: 1.6rem;
+}
+
+.titleLine {
+  display: flex;
+  margin-bottom: 0.3rem;
+}
+
+.subtitle,
+small {
+  color: rgb(88, 88, 88);
+}
+
+small {
+  font-size: 1rem;
+}
+
+.aboveTitle {
+  margin: 0px 0px 6px 0px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.category {
+  color: #2a536e;
+  display: inline;
+  float: right;
+}
+
+.goBack a:hover {
+  text-decoration: none;
+}
