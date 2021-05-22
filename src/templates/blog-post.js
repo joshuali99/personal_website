@@ -3,7 +3,7 @@ import Link from "gatsby-link"
 import Layout from "../components/layout"
 import { graphql } from "gatsby"
 import { Card } from "react-bootstrap"
-import * as BiIcons from "react-icons/Bi"
+import * as BiIcons from "react-icons/bi"
 
 export default function Template({ data }) {
   const post = data.markdownRemark
