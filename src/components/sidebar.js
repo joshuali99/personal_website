@@ -14,7 +14,7 @@ const Sidebar = ({ siteTitle, sidebar, showSidebar }) => {
     <>
       <IconContext.Provider value={{ color: "#fff", cursor: "pointer" }}>
         <div className="sidebar">
-          <Link className="menu-bars">
+          <Link to="#" className="menu-bars">
             <FaIcons.FaBars onClick={showSidebar} aria-label="Show sidebar" />
           </Link>
           <div className="header">
@@ -37,10 +37,8 @@ const Sidebar = ({ siteTitle, sidebar, showSidebar }) => {
       <nav className={sidebar ? "nav-menu active" : "nav-menu"}>
         <ul className="nav-menu-items">
           <li className="navbar-toggle">
-            <Link className="menu-bars">
-              <IconContext.Provider
-                value={{ color: "#fff", cursor: "pointer" }}
-              >
+            <Link to="#" className="menu-bars">
+              <IconContext.Provider value={{ color: "#fff" }}>
                 {" "}
                 <AiIcons.AiOutlineClose
                   onClick={showSidebar}
@@ -86,6 +84,7 @@ const Sidebar = ({ siteTitle, sidebar, showSidebar }) => {
             <a
               href="https://drive.google.com/file/d/1UsJAOrc_-frwLtKj_VVjLbBSZqBNwQgp/view?usp=sharing"
               target="_blank"
+              rel="noreferrer"
             >
               Resum&eacute;
             </a>
