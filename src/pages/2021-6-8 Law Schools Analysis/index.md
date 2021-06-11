@@ -27,7 +27,7 @@ This post's graphs are built with plotly and are thus interactive. Hover your cu
 
 <h5>Racial Composition at Elite, Strong, and Common Law Schools</h5>
 
-<p class = "graph"> To begin, I categorized law schools based on <a href = "http://schools.lawschoolnumbers.com/rankings/us-news-report-law-school-rankings">their US News 2021 rankings into three categories: Elite, which represent schools ranked 1 - 15; Strong, which represents schools ranked 16 - 50; and Common, which represents schools ranked 51 - 194. <a class = "footerLink" href = "#footer2"><sup>2</sup></a>:</p>
+<p class = "graph"> To begin, I categorized law schools based on <a href = "http://schools.lawschoolnumbers.com/rankings/us-news-report-law-school-rankings">their US News 2021 rankings </a> into three categories: Elite, which represent schools ranked 1 - 15; Strong, which represents schools ranked 16 - 50; and Common, which represents schools ranked 51 - 194.</p><a class = "footerLink" href = "#footer2"><sup>2</sup></a>
 <!-- <div>
     <a href="https://plotly.com/~jzlee/1/?share_key=kn7dXmsWELQX7jrgk3wuqs" target="_blank" title="race_by_cat" style="display: block; text-align: center;"><img src="https://plotly.com/~jzlee/1.png?share_key=kn7dXmsWELQX7jrgk3wuqs" alt="race_by_cat" style="max-width: 100%;width: 708px;"  width="708" onerror="this.onerror=null;this.src='https://plotly.com/404.png';" /></a>
     <script data-plotly="jzlee:1" sharekey-plotly="kn7dXmsWELQX7jrgk3wuqs" src="https://plotly.com/embed.js" async></script>
