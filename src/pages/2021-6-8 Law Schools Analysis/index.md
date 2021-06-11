@@ -109,11 +109,11 @@ The "Other" category is difficult to analyze because the percentage is so small:
 <h5>Female Representation</h5>
 <p> Next, we examine female representation at law schools, which as mentioned before is higher than male representation. Given this disparity, I could imagine titling this section "Male Representation," but female representation is almost the complement of male representation, meaning that this section is already investigating both. </p>
 <p class = "graph">Since we don't need a graph showing broader representation of many categories (as we did with racial composition), we can start with the scatterplot: </p>
-<div>
+<!-- <div>
     <a href="https://plotly.com/~jzlee/9/?share_key=tZjI0BBUrpYlsSbeQclRcE" target="_blank" title="gender_by_rank" style="display: block; text-align: center;"><img src="https://plotly.com/~jzlee/9.png?share_key=tZjI0BBUrpYlsSbeQclRcE" alt="gender_by_rank" style="max-width: 100%;width: 708px;"  width="708" onerror="this.onerror=null;this.src='https://plotly.com/404.png';" /></a>
     <script data-plotly="jzlee:9" sharekey-plotly="tZjI0BBUrpYlsSbeQclRcE" src="https://plotly.com/embed.js" async></script>
-</div>
-<!-- <iframe width="708" height="500" frameborder="0" scrolling="no" src="//plotly.com/~jzlee/9.embed"></iframe> -->
+</div> -->
+<iframe width="708" height="500" frameborder="0" scrolling="no" src="//plotly.com/~jzlee/9.embed"></iframe>
 <p>Here, the linear trendline shows the relationship between rank and female representation: highly ranked schools have lower female representation, to the point where the number of females almost equals the number of males.<a class = "footerLink" href = "#footer4"><sup>4</sup></a></a> There are numerous social commentaries you could make for this drop in representation, but I think most people would agree that the results are interesting but not surprising. It's widely known that women are strongly underrepresented at top positions across numerous fields, and <a href = "https://www.abajournal.com/news/article/female-and-minority-lawyer-representation-in-law-firms-reaches-historic-highs-but-gains-are-small"> law is not an exception.</a></p>
 <p>Although the linear decline in female representation is statistically significant, the slope is not steep: the line ranges between 51% and 56% representation between the top and bottom ranked schools. Moreover, ranking can only account for around 6.4% of the variance in gender representation between schools. Thus, while the decline in female representation is an interesting phenomenon, it is not a particularly strong indicator of female representation in a law school's student body.</p>
 <h5>Gender and Race</h5>
