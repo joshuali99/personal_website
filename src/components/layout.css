@@ -9,11 +9,17 @@ h1 {
   font-weight: lighter;
 }
 
+.graph {
+  margin-bottom: 0px;
+}
+
 body {
   margin: 0px;
   background-color: #f8f9fa;
 }
-
+.card-body {
+  padding: 1.5rem;
+}
 .card {
   border-radius: 0px;
   box-shadow: 2px 2px 2px rgb(201, 199, 199);
@@ -39,7 +45,7 @@ body {
 
 .mainTitle {
   font-weight: bold;
-  font-size: 2rem;
+  font-size: 1.8rem;
 }
 
 .secondTitle {
@@ -65,15 +71,32 @@ small {
   margin: 0px 0px 6px 0px;
 }
 
+#articlefooter p {
+  font-size: 1rem;
+}
+
 a {
   text-decoration: none;
   color: black;
+}
+
+p a {
+  text-decoration: underline;
+  color: #326e96;
 }
 
 .category {
   color: #2a536e;
   display: inline;
   float: right;
+}
+
+.footerLink {
+  text-decoration: none;
+}
+
+a sup {
+  text-decoration: none;
 }
 
 .goBack a:hover {
